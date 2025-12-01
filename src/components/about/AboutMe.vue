@@ -8,15 +8,20 @@ export default {
           bio:
               "Étudiant en troisième année de B.U.T informatique, je suis passionné par l'informatique depuis de nombreuses années. J'aime particulièrement travailler sur des projets qui me permettent de résoudre des problèmes concrets et d'innover. Que ce soit à travers des projets académiques ou personnels, je cherche toujours à repousser les limites de mes connaissances et à explorer de nouvelles technologies.",
         },
+        {
+          id: 2,
+          bio: "Je m’intéresse particulièrement au domaine de la cybersécurité, dans lequel je souhaite poursuivre mes études. Ce domaine me passionne car aujourd’hui, n’importe qui peut être la cible d’une attaque en ligne : comme le montre l’attaque récente contre trois conseils locaux de Londres, dont les systèmes informatiques ont été paralysés — lignes téléphoniques coupées, portails en ligne hors service, interruption de services publics essentiels.\n" +
+              "Développer des compétences en cybersécurité, c’est, à mes yeux, contribuer à protéger des individus, des collectivités, et des infrastructures entières face à des menaces réelles et croissantes."
+        }
       ],
 
       softSkills: [
-        { id: 1, skill: "Travail d'équipe" },
-        { id: 2, skill: "Communication" },
-        { id: 3, skill: "Organisation" },
-        { id: 4, skill: "Autonomie" },
-        { id: 5, skill: "Résolution de problèmes" },
-        { id: 6, skill: "Adaptabilité" },
+        {id: 1, skill: "Travail d'équipe"},
+        {id: 2, skill: "Communication"},
+        {id: 3, skill: "Organisation"},
+        {id: 4, skill: "Autonomie"},
+        {id: 5, skill: "Résolution de problèmes"},
+        {id: 6, skill: "Adaptabilité"},
       ],
     };
   },
@@ -43,6 +48,16 @@ export default {
       >
         {{ bio.bio }}
       </p>
+
+      <a
+          class="font-general-regular mb-4 text-blue-600 dark:text-blue-400 underline hover:text-blue-800 dark:hover:text-blue-300 transition-colors text-lg"
+          href="https://www.usine-digitale.fr/cybersecurite/trois-conseils-locaux-de-londres-touches-par-une-cyberattaque-un-plan-durgence-deploye.QSV74ZQUSRGVPASWTCQSDQFV5Q.html"
+          target="_blank"
+          rel="noopener noreferrer"
+      >
+        Article sur l'attaque des conseils locaux de Londres
+      </a>
+
 
       <!-- Formation -->
       <div class="mt-10">

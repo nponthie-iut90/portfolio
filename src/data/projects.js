@@ -328,7 +328,7 @@ const projects = [{
       <p>
         Le serveur utilise une configuration RAID 5, permettant la continuité du service même si un disque tombe en panne.
       </p>
-      <img src="/images/raid5.png" alt="Switches dispersés" class="w-[80%] h-auto rounded shadow">
+      <img src="/portfolio/images/raid5.png" alt="Switches dispersés" class="w-[80%] h-auto rounded shadow">
       
     `
             }, {
@@ -357,7 +357,7 @@ const projects = [{
       <h3>Architecture globale</h3>
       <p>
         L’ensemble de ces évolutions permet une infrastructure claire, stable et évolutive. Grâce à la virtualisation et à la réorganisation des services, l’entreprise dispose d’un système moderne, fiable et facile à administrer.
-      </p><img src="/images/balossi-schema.png" alt="Switches dispersés" class="w-[100%] h-auto rounded shadow">
+      </p><img src="/portfolio/images/balossi-schema.png" alt="Switches dispersés" class="w-[100%] h-auto rounded shadow">
       
     `
             }]
@@ -382,7 +382,7 @@ const projects = [{
 
         related: {
             relatedProjectsHeading: 'En rapport',
-            relatedProjects: [{id: 3, title: "Installation baie et serveur", img: '/img/jacquemin-4.4b9e459b.jpg'},]
+            relatedProjects: [{id: 4, title: "Installation baie et serveur", img: '/portfolio/images/jacquemin-4.jpg'},]
         },
     }, {
         id: 4,
@@ -441,9 +441,9 @@ const projects = [{
       </ul>
       <p>L’organisation de ces actifs était chaotique :</p>
       <div class="flex justify-between my-4 gap-4">
-  <img src="/images/jacquemin-1.jpg" alt="Actifs réseaux avant" class="w-[32%] h-auto rounded shadow">
-  <img src="/images/jacquemin-2.jpg" alt="Câbles non repérés" class="w-[32%] h-auto rounded shadow">
-  <img src="/images/jacquemin-3.jpg" alt="Switches dispersés" class="w-[32%] h-auto rounded shadow">
+  <img src="/portfolio/images/jacquemin-1.jpg" alt="Actifs réseaux avant" class="w-[32%] h-auto rounded shadow">
+  <img src="/portfolio/images/jacquemin-2.jpg" alt="Câbles non repérés" class="w-[32%] h-auto rounded shadow">
+  <img src="/portfolio/images/jacquemin-3.jpg" alt="Switches dispersés" class="w-[32%] h-auto rounded shadow">
 </div>
 
 
@@ -464,8 +464,8 @@ const projects = [{
       </ul>
       <p>Après la pose, les actifs sont organisés proprement dans la baie :</p>
       
-      <img src="/images/jacquemin-4.jpg" alt="Baie informatique après pose" class="my-4 rounded shadow" style="width: 50%"/>
-      <img src="/images/jacquemin-baie-schema.png" alt="Schéma détaillé de la baie" class="my-4 rounded shadow" />
+      <img src="/portfolio/images/jacquemin-4.jpg" alt="Baie informatique après pose" class="my-4 rounded shadow" style="width: 50%"/>
+      <img src="/portfolio/images/jacquemin-baie-schema.png" alt="Schéma détaillé de la baie" class="my-4 rounded shadow" />
     `
             }, {
                 id: 4, details: `
@@ -487,7 +487,7 @@ const projects = [{
       <p>
         L’ensemble de ces interventions permet d’obtenir une infrastructure claire, sécurisée et facilement administrable.
       </p>
-      <img src="/images/jacquemin-schema.png" alt="Architecture globale réseau" class="my-4 rounded shadow" />
+      <img src="/portfolio/images/jacquemin-schema.png" alt="Architecture globale réseau" class="my-4 rounded shadow" />
     `
             }]
 
@@ -495,7 +495,7 @@ const projects = [{
 
         related: {
             relatedProjectsHeading: 'En rapport', relatedProjects: [{
-                id: 2, title: "Modernisation et virtualisation d'un serveur", img: '/images/serveur.png'
+                id: 3, title: "Modernisation et virtualisation d'un serveur", img: '/portfolio/images/serveur.png'
             },]
         },
     }, {
@@ -567,7 +567,7 @@ const projects = [{
         </ul>
 
         <div class="flex gap-4 my-4 justify-center">
-          <img src="/images/script.png" alt="Interface du script" class="my-4 rounded shadow " />
+          <img src="/portfolio/images/script.png" alt="Interface du script" class="my-4 rounded shadow " />
         </div>
 
         <p>
@@ -605,7 +605,7 @@ const projects = [{
 
         related: {
             relatedProjectsHeading: 'En rapport', relatedProjects: [{
-                id: 2, title: "Modernisation et virtualisation d'un serveur", img: '/images/serveur.png'
+                id: 3, title: "Modernisation et virtualisation d'un serveur", img: '/portfolio/images/serveur.png'
             },]
         },
     }

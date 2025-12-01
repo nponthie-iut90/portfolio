@@ -32,8 +32,9 @@ export default {
         },
         {
           id: 2,
-          title: 'IA',
+          title: 'IA et traitement de données',
           tools: [
+            {id: 25, title: 'Panda', img: require('@/assets/images/brands/pandas.png')},
             {id: 19, title: 'Scikit-learn', img: require('@/assets/images/brands/scikit-learn.png')},
             {id: 8, title: 'OpenCV', img: require('@/assets/images/brands/opencv.png')},
           ],
