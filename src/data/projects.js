@@ -123,7 +123,7 @@ const projects = [{
 
     related: {
         relatedProjectsHeading: 'En rapport',
-        relatedProjects: [{id: 2, title: "Site web évènementiel", img: require('@/assets/images/fdt-1.png')},]
+        relatedProjects: [{id: 2, title: "Site web évènementiel", img: '/portfolio/images/fdt-1.png'},]
     },
 
 }, {
@@ -235,7 +235,7 @@ const projects = [{
 
     related: {
         relatedProjectsHeading: 'En rapport',
-        relatedProjects: [{id: 1, title: "Field Track", img: require('@/assets/images/web-project-2.jpg')},]
+        relatedProjects: [{id: 1, title: "Field Track", img: '/portfolio/images/web-project-2.jpg'},]
     },
 
 },
