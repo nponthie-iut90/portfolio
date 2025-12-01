@@ -104,13 +104,92 @@ export default {
 			>
 				{{ projectInfo.projectDetailsHeading }}
 			</p>
-			<p
-				v-for="projectDetail in projectInfo.projectDetails"
-				:key="projectDetail.id"
-				class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-			>
-				{{ projectDetail.details }}
-			</p>
-		</div>
+      <div
+          v-for="projectDetail in projectInfo.projectDetails"
+          :key="projectDetail.id"
+          class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light project-detail"
+          v-html="projectDetail.details"
+      ></div>
+    </div>
 	</div>
 </template>
+
+<style>
+/* Appliqué à tout le contenu injecté par v-html */
+.project-detail {
+  font-family: 'GeneralSans-Regular'; /* font-general-regular */
+  font-size: 1.125rem; /* équivalent text-lg */
+  color: #1f2937; /* approximatif de text-ternary-dark */
+  margin-bottom: 1.25rem; /* mb-5 */
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .project-detail {
+    color: #e5e7eb; /* équivalent text-ternary-light */
+  }
+}
+
+/* Titres */
+.project-detail h1,
+.project-detail h2,
+.project-detail h3,
+.project-detail h4,
+.project-detail h5,
+.project-detail h6 {
+  font-family: 'GeneralSans-Medium'; /* font-general-medium */
+  margin-bottom: 0.5rem; /* mb-2 */
+}
+
+.project-detail h1 { font-size: 2rem; }   /* text-3xl */
+.project-detail h2 { font-size: 1.75rem; }/* text-2xl */
+.project-detail h3 { font-size: 1.25rem; }/* text-xl */
+.project-detail h4 { font-size: 1.125rem; }/* text-lg */
+.project-detail h5 { font-size: 1rem; }   /* text-base */
+.project-detail h6 { font-size: 0.875rem; }/* text-sm */
+
+/* Paragraphes */
+.project-detail p {
+  margin-bottom: 1.25rem; /* mb-5 */
+}
+
+/* Listes */
+.project-detail ul {
+  list-style-type: disc;
+  padding-left: 1.25rem; /* pl-5 */
+  margin-bottom: 0.5rem; /* mb-2 */
+}
+
+.project-detail ol {
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-detail li {
+  margin-bottom: 0.25rem; /* mb-1 */
+}
+
+/* Liens */
+.project-detail a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* Images si besoin */
+.project-detail img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.project-detail * {
+  @apply text-ternary-dark;
+}
+
+.dark .project-detail * {
+  @apply text-ternary-light;
+}
+
+</style>

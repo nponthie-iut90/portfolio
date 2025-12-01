@@ -1,6 +1,6 @@
 <script>
 import AboutMe from '@/components/about/AboutMe';
-import AboutCounter from '@/components/about/AboutCounter';
+//import AboutCounter from '@/components/about/AboutCounter';
 import AboutClients from '@/components/about/AboutClients';
 import feather from 'feather-icons';
 
@@ -8,7 +8,7 @@ export default {
 	name: 'About',
 	components: {
 		AboutMe,
-		AboutCounter,
+		//AboutCounter,
 		AboutClients,
 	},
 	data: () => {
@@ -32,7 +32,7 @@ export default {
 		</div>
 
 		<!-- About counter -->
-		<AboutCounter />
+		<!--<AboutCounter />-->
 
 		<!-- About counter -->
 		<div class="container mx-auto">

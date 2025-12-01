@@ -14,14 +14,16 @@ export default {
 			{{ relatedProject.relatedProjectsHeading }}
 		</p>
 
-		<div class="grid grid-cols-1 sm:grid-cols-4 gap-10">
-			<div v-for="item in relatedProject.relatedProjects" :key="item.id">
-				<img
-					:src="item.img"
-					class="rounded-xl cursor-pointer"
-					:alt="item.title"
-				/>
-			</div>
-		</div>
-	</div>
+    <div class="grid grid-cols-1 sm:grid-cols-4 gap-10">
+      <div v-for="item in relatedProject.relatedProjects" :key="item.id">
+        <router-link :to="`/projects/single-project/${item.id}`">
+          <img
+              :src="item.img"
+              class="rounded-xl cursor-pointer"
+              :alt="item.title"
+          />
+        </router-link>
+      </div>
+    </div>
+  </div>
 </template>

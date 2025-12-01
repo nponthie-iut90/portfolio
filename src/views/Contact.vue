@@ -13,17 +13,17 @@ export default {
 			contacts: [
 				{
 					id: 1,
-					name: 'Your Address, Your City, Your Country',
+					name: "2 route d'ormont, Laviron, France",
 					icon: 'map-pin',
 				},
 				{
 					id: 2,
-					name: 'email@domain.com',
+					name: 'nathan.ponthieu@edu.univ-fcomte.fr',
 					icon: 'mail',
 				},
 				{
 					id: 3,
-					name: '555 8888 888',
+					name: '06.56.77.66.86',
 					icon: 'phone',
 				},
 			],
