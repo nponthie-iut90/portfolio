@@ -122,10 +122,8 @@ const projects = [{
     },
 
     related: {
-        relatedProjectsHeading: 'Related Projects',
-        relatedProjects: [{id: 3, title: 'Project Management UI', img: '/assets/images/ui-project-1.jpg'}, {
-            id: 4, title: 'Cloud Platform', img: '/assets/images/ui-project-2.jpg'
-        }]
+        relatedProjectsHeading: 'En rapport',
+        relatedProjects: [{id: 2, title: "Site web évènementiel", img: require('@/assets/images/fdt-1.png')},]
     },
 
 }, {
@@ -236,10 +234,8 @@ const projects = [{
     },
 
     related: {
-        relatedProjectsHeading: 'Related Projects',
-        relatedProjects: [{id: 3, title: 'Project Management UI', img: '/assets/images/ui-project-1.jpg'}, {
-            id: 4, title: 'Cloud Platform', img: '/assets/images/ui-project-2.jpg'
-        }]
+        relatedProjectsHeading: 'En rapport',
+        relatedProjects: [{id: 1, title: "Field Track", img: require('@/assets/images/web-project-2.jpg')},]
     },
 
 },
